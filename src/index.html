@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com ; script-src 'self' https://maps.googleapis.com ; img-src 'self' data: https://cbks0.googleapis.com https://geo0.ggpht.com https://geo1.ggpht.com https://geo2.ggpht.com https://geo3.ggpht.com https://maps.gstatic.com https://maps.googleapis.com ;font-src 'self' https://fonts.gstatic.com">
+    <title>CNES</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDbVa-9a9QTNROoyogb6dRfco0G6FAfBA"></script>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="grid-item">
+        <div id="form">
+            CNES:<br>
+            <input type="text" nome="cnes" class="form-control" aria-label="Small">
+            Latitude:
+            <input type="number" id="latitude" class="form-control" aria-label="Small" value="-22.97595702">
+            Longitude:
+            <input type="number" id="longitude" class="form-control" aria-label="Small" value="-49.86549228">
+            <button class="btn btn-primary">Salvar</button>
+        </div>
+        <hr>
+        <div id="endereco">
+          Nome:<br>
+          <input type="text" nome="longitude" class="form-control" aria-label="Small">
+          Endereço:<br>
+          <input type="text" nome="longitude" class="form-control" aria-label="Small">
+          Bairro:<br>
+          <input type="text" nome="longitude" class="form-control" aria-label="Small">
+          Cidade:<br>
+          <input type="text" nome="longitude" class="form-control" aria-label="Small">
+        </div>
+        <hr>
+      </div>
+      <div class="grid-item">
+        <div id="googleMap"></div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+    </body>
+</html>
+
+<!-- &callback=myMap -->

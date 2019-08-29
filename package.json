@@ -1,0 +1,19 @@
+{
+  "name": "projeto-conclusao",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Bruno Ferreira Pedraça",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^6.0.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  }
+}
