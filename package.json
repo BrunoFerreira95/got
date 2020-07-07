@@ -9,7 +9,7 @@
   "author": "Bruno Ferreira Pedraça",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^6.0.4"
+    "electron": "^7.2.4"
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
